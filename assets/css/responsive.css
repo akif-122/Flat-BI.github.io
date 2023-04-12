@@ -1,0 +1,555 @@
+
+@media screen and (max-width: 1199px){
+	/*
+================================================
+			HEADER SECTION START
+================================================
+*/
+.header-section{
+	padding: 20px 10px;
+}
+.header-section .header-content{
+	padding: 10px 5px;
+}
+.header-section .header-content h1{
+	font-size: 40px;
+	
+}
+
+
+/*
+================================================
+			HEADER SECTION END
+================================================
+*/
+
+/*
+================================================
+			VIDEO SECTION START
+================================================
+*/
+
+
+
+.video-slider .slick-prev{
+
+	left: -10px;
+
+
+}
+.video-slider  .slick-next{
+
+	right: -10px;
+	
+}
+
+/*
+================================================
+			VIDEO SECTION START
+================================================
+*/
+
+/*
+================================================
+		MAKE YOUR PROJECT SECTION START
+================================================
+*/
+
+.project-list ul li{
+	
+	font-size: 16px;
+	
+}
+/*
+================================================
+		MAKE YOUR PROJECT SECTION END
+================================================
+*/
+
+
+}
+
+
+@media screen and (max-width: 991px){
+/*
+================================================
+			NAVIGATION BAR START
+================================================
+*/
+.top-navbar .navbar-brand{
+	font-size: 35px;
+}
+
+.top-navbar #mynav ul li a{
+	font-size: 14px;
+	margin: 5px;
+}
+
+.nav-btn li a{
+	font-size: 14px;
+}
+
+.nav-btn li:nth-child(2) a{
+	padding: 4px 20px !important;
+}
+
+/*
+================================================
+			NAVIGATION BAR END
+================================================
+*/
+
+/*
+================================================
+			HEADER SECTION START
+================================================
+*/
+
+.header-section{
+	padding:10px;
+}
+.header-section .header-content{
+	padding: 5px;
+}
+.header-section .header-content h1{
+	font-size: 30px;
+	
+}
+
+
+/*
+================================================
+			HEADER SECTION END
+================================================
+*/
+
+/*
+================================================
+			ABOUT OWNER SEECTION START
+================================================
+*/
+
+.about-owner h2{
+
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+.about-owner img{
+	width: 220px;
+	height: 220px;
+
+}
+.owner-text{
+	margin-top: 0px;
+}
+.owner-text p{
+	font-size: 14px;
+	line-height: 1.5;
+	
+}
+
+/*
+================================================
+			ABOUT OWNER SEECTION END
+================================================
+*/
+
+/*
+================================================
+		MAKE YOUR PROJECT SECTION START
+================================================
+*/
+.make-project{
+	background: #FFF0E8;
+	margin: 30px auto;
+	padding: 10px;
+}
+
+.project-text h2{
+	font-weight: bold;
+	font-size: 20px !important;
+	margin-bottom: 10px !important;
+}
+.project-text p{
+	font-size: 14px;
+	font-weight: 500;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.project-list ul li{
+	color: ;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+/*
+================================================
+		MAKE YOUR PROJECT SECTION END
+================================================
+*/
+
+
+}
+
+
+@media screen and (max-width: 767px){
+
+
+/*
+================================================
+			NAVIGATION BAR START
+================================================
+*/
+.top-navbar #mynav ul{
+	border-top: 1px solid #333;
+}
+.top-navbar #mynav ul li a{
+	font-size: 14px;
+	margin: 0px;
+	border-bottom: 1px solid grey;
+	text-align: center;
+	transition: 0.4s;
+	
+}
+.top-navbar #mynav ul li a:hover{
+	color: #fff;
+	background: var(--red);
+}
+
+.nav-btn{
+	border-top: none !important;
+
+}
+.nav-btn li a{
+	margin: 10px  0 !important;
+	padding: 5px 25px !important;
+	border: 1px solid var(--red) !important;
+	border-radius: 50px;
+	color: var(--red) !important;
+	transition: 0.4s linear;
+}
+.nav-btn li a:hover{
+	color: var(--ligthblue) !important;
+}
+.nav-btn li:nth-child(1) a{
+	
+	border: 1px solid var(--ligthblue) !important;
+	color: var(--ligthblue) !important;
+
+
+}
+.nav-btn li:nth-child(2) a{
+	border: 1px solid var(--red) !important;
+	color: var(--red) !important;
+
+
+}
+.nav-btn li:nth-child(1) a:hover{
+	background: var(--ligthblue) !important;
+	color: #fff !important;
+}
+.nav-btn li:nth-child(2) a:hover{
+	background: var(--red);
+	color: #fff !important;
+}
+/*
+================================================
+			NAVIGATION BAR END
+================================================
+*/
+
+/*
+================================================
+			HEADER SECTION START
+================================================
+*/
+
+.header-section .header-content h1{
+	font-size: 20px;
+	line-height: 1.3;
+	
+}
+
+.header-section .header-content .para{
+	width: 80%;
+	padding-right: 10px;
+}
+.header-section .header-content .para p{
+	margin: 20px 0;
+	font-size: 14px;
+
+}
+
+.header-section .header-content .header-btn{
+	margin: 40px 0;
+
+}
+.header-section .header-content .header-btn a{
+	font-size: 16px;
+	padding: 8px 40px;
+	
+}
+.header-section .header-content .header-btn a:hover{
+	color: #333;
+	background: transparent;
+}
+
+
+/*
+================================================
+			HEADER SECTION END
+================================================
+*/
+
+/*
+================================================
+			PLAN SECTION START
+================================================
+*/
+
+.plan-section h1{
+	font-size: 24px;
+	font-weight: bold !important;
+	margin-bottom: 20px;
+}
+
+/*
+================================================
+			PLAN SECTION END
+================================================
+*/
+
+/*
+================================================
+		MAKE YOUR PROJECT SECTION START
+================================================
+*/
+.make-project{
+	margin-top: 50px;
+}
+
+.project-text h2{
+	font-size: 28px;
+}
+
+/*
+================================================
+		MAKE YOUR PROJECT SECTION END
+================================================
+*/
+
+
+/*
+================================================
+		SUBSCRIBER SECTION START
+================================================
+*/
+.sub-section{
+	margin-top: 40px;
+	padding: 30px 20px;
+	box-shadow: 0 20px 40px -40px grey,
+	0 -10px 30px -30px grey;
+}
+.sub-text{
+	margin-left: 20px;
+}
+.sub-text h3{
+	font-size: 17px;
+
+}
+.sub-text p{
+	font-size: 14px;
+	margin-top: 20px;
+}
+.news-btn{
+	margin-right: 50px;
+}
+
+.news-btn a{
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	padding: 7px 30px;
+	border-radius: 5px;
+	background:var(--red);
+	border: 1px solid var(--red);
+	box-shadow: 0px 15px 30px -10px var(--red);
+	transition: all .4s linear;
+}
+.news-btn a:hover{
+	color: #333;
+	background: transparent;
+}
+/*
+================================================
+		SUBSCRIBER SECTION END
+================================================
+*/
+
+}
+
+@media screen and (max-width: 575px){
+/*
+================================================
+			HEADER SECTION START
+================================================
+*/
+
+
+.header-section .header-content h1{
+	font-size: 13px;
+	font-weight: bold;
+	color: #333;
+	line-height: 1.3;
+}
+.header-section .header-content h1 span{
+	color: var(--ligthblue);
+}
+.header-section .header-content .para{
+	width: 85%;
+	padding-right: 0px;
+}
+.header-section .header-content .para p{
+	margin: 5px 0;
+	font-size: 12px;
+	text-shadow: 0 0 2px lightgrey;
+
+}
+.header-section .header-content .para p b{
+	color: var(--ligthblue);
+}
+.header-section .header-content .para p b span{
+	color: var(--orange);
+}
+.header-section .header-content .header-btn{
+	margin: 10px 0;
+
+}
+.header-section .header-content .header-btn a{
+	font-size: 13px;
+	color: #fff;
+	font-weight: bold;
+	padding: 5px 20px;
+	border-radius: 5px;
+	background:var(--red);
+	border: 1px solid var(--red);
+	box-shadow: 0px 15px 30px -10px var(--red);
+	transition: all .4s linear;
+}
+.header-section .header-content .header-btn a:hover{
+	color: #333;
+	background: transparent;
+}
+/*
+================================================
+			HEADER SECTION END
+================================================
+*/
+
+/*
+================================================
+			PLAN SECTION START
+================================================
+*/
+
+.plan-section h1{
+	font-size: 18px;
+	margin-bottom: 10px;
+	
+}
+.plan-section p{
+	font-size: 13px;
+}
+.plan-btn{
+	margin-bottom: 10px;
+}
+.plan-btn a{
+	font-size: 14px;
+	
+
+}
+
+/*
+================================================
+			PLAN SECTION END
+================================================
+*/
+
+/*
+================================================
+			ABOUT OWNER SEECTION START
+================================================
+*/
+
+
+
+.about-owner img{
+	
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+
+}
+.owner-text{
+	margin: 20px;
+}
+.owner-text p{
+	font-size: 13px;
+	line-height: 1.5;
+	font-weight: 500;
+}
+
+/*
+================================================
+			ABOUT OWNER SEECTION END
+================================================
+*/
+
+/*
+================================================
+		MAKE YOUR PROJECT SECTION START
+================================================
+*/
+
+
+.project-text h2{
+	font-size: 18px !important;
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 10px !important;
+}
+.project-text p{
+	font-size: 13px;
+	
+}
+.project-list ul li{
+	font-size: 14px;
+	margin: 5px 0;
+}
+/*
+================================================
+		MAKE YOUR PROJECT SECTION END
+================================================
+*/
+
+
+/*
+================================================
+		TEDTIMONIAL SECTION START
+================================================
+*/
+
+.test-heading h2{
+	font-size: 18px;
+}
+
+
+/*
+================================================
+		TEDTIMONIAL SECTION END
+================================================
+*/
+
+}

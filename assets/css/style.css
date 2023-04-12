@@ -1,0 +1,764 @@
+:root{
+	--red: #F53838;
+	--ligthblue: #4BB7DD;
+	--orange: #F8BC97;
+	--green: #2FAB73;
+}
+
+*,
+*:after,
+*before{
+	margin: 0;
+	position: 0;
+	box-sizing: border-box;
+
+}
+
+html{
+	font-size: 80%;
+	outline: none !important;
+
+
+}
+p{
+	font-size: 15px;
+}
+a{
+	text-decoration: none !important;
+}
+
+.wrap{
+	overflow: hidden;
+}
+
+/*
+================================================
+			NAVIGATION BAR START
+================================================
+*/
+.top-navbar .navbar-brand{
+	font-size: 35px;
+	color: var(--orange);
+	transition: 0.4s;
+}
+.top-navbar .navbar-brand span{
+	color: var(--ligthblue);
+}
+.top-navbar .navbar-brand:hover{
+	color: var(--red);
+}
+
+.top-navbar #mynav ul li a{
+	font-size: 15px;
+	margin: 15px;
+	font-weight: 500;
+	color: #333;
+	transition: all 0.4 linear;
+}
+.top-navbar #mynav ul li a:hover{
+	color: var(--red);
+}
+.nav-btn li a{
+	color: #333;
+	font-size: 16px;
+	font-weight: bold !important;
+	transition: all 0.4s linear;
+
+}
+.nav-btn li a:hover{
+	color: var(--ligthblue) !important;
+}
+.nav-btn li:nth-child(2) a{
+	padding: 5px 25px !important;
+	border: 1px solid var(--red);
+	border-radius: 50px;
+	color: var(--red) !important;
+	transition: 0.4s linear;
+}
+.nav-btn li:nth-child(2) a:hover{
+	background: var(--red);
+	color: #fff !important;
+}
+/*
+================================================
+			NAVIGATION BAR END
+================================================
+*/
+/*
+================================================
+			HEADER SECTION START
+================================================
+*/
+.header-section{
+	background: url('superhero.png');
+	background-position: center right;
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding: 40px 10px;
+	margin-top: 20px;
+
+}
+.header-section .header-content{
+	padding: 20px 5px;
+}
+.header-section .header-content h1{
+	font-size: 45px;
+	font-weight: bold;
+	color: #333;
+	line-height: 1.5;
+}
+.header-section .header-content h1 span{
+	color: var(--ligthblue);
+}
+.header-section .header-content .para{
+	width: 75%;
+	padding-right: 20px;
+}
+.header-section .header-content .para p{
+	margin: 20px 0;
+
+}
+.header-section .header-content .para p b{
+	color: var(--ligthblue);
+}
+.header-section .header-content .para p b span{
+	color: var(--orange);
+}
+.header-section .header-content .header-btn{
+	margin: 50px 0;
+
+}
+.header-section .header-content .header-btn a{
+	font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+	padding: 10px 50px;
+	border-radius: 5px;
+	background:var(--red);
+	border: 1px solid var(--red);
+	box-shadow: 0px 15px 30px -10px var(--red);
+	transition: all .4s linear;
+}
+.header-section .header-content .header-btn a:hover{
+	color: #333;
+	background: transparent;
+}
+/*
+================================================
+			HEADER SECTION END
+================================================
+*/
+/*
+================================================
+			PLAN SECTION START
+================================================
+*/
+.plan-section{
+	padding: 30px 10px;
+	border-radius: 10px;
+	background: #F2F5FC;
+	margin: 30px auto;
+	box-shadow: 0 10px 30px -15px lightgrey;
+
+}
+.plan-section h1{
+	font-size: 28px;
+	font-weight: bold !important;
+	margin-bottom: 20px;
+}
+.plan-section p{
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 20px;
+
+}
+.plan-btn{
+	margin-bottom: 10px;
+}
+.plan-btn a{
+	font-size: 16px;
+	padding: 8px 35px;
+	border: 1px solid var(--orange);
+	border-radius: 4px;
+	color: #fff;
+	background: var(--orange);
+	transition:all 0.4s linear;
+
+}
+.plan-btn a:hover{
+	color: #fff;
+	background: var(--red);
+
+}
+
+
+
+.owl-theme{
+	position: relative;
+	display: block;
+}
+.owl-theme .owl-nav {
+	width: 100%;
+	position: absolute;
+	display:  block;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%);
+	background: red !important;
+}
+
+.owl-theme .owl-nav .owl-prev,
+.owl-theme .owl-nav .owl-next{
+	position: absolute;
+	font-size: 20px !important;
+	font-weight: bold;
+	color: var(--secondry-color) !important;
+
+
+}
+.owl-theme .owl-nav .owl-next span,
+.owl-theme .owl-nav .owl-prev span{
+	font-size:50px;
+	height: auto;
+	display: block;
+	width: 100%;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.owl-theme .owl-nav .owl-prev{
+	left: 30px;
+
+
+
+}
+.owl-theme .owl-nav .owl-next{
+	right: 25px;
+
+}
+/*
+================================================
+			PLAN SECTION END
+================================================
+*/
+/*
+================================================
+			ABOUT SECTION START
+================================================
+*/
+.about-content{
+	padding: 20px 10px;
+	background: ;
+	border-radius: 50px;
+
+}
+.about-content-1{
+	background: #F0FAF8;
+	padding-left: 15px;
+}
+.about-content-2{
+	background: #F5F0FC;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.about-heading{
+	margin: 20px auto;
+}
+.about-heading h2{
+	margin-bottom: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.about-heading h2 span{
+	color: var(--orange);
+}
+.about-heading p{
+	font-size: 14px;
+	font-weight: 500;
+}
+.about-list i,
+.what-list i{
+	color: var(--green);
+}
+.about-list p,
+.what-list p{
+	font-size: 14px;
+}
+.what-btn{
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.what-btn a{
+	font-size: 20px;
+	color: #333;
+	transition: 0.4s;
+}
+.what-btn a:hover{
+	color: var(--green);
+}
+.about-list .d-flex{
+	margin: 20px auto;
+}
+
+/*
+================================================
+			ABOUT SECTION END
+================================================
+*/
+/*
+================================================
+			ABOUT OWNER SEECTION START
+================================================
+*/
+.about-owner{
+	padding: 20px;
+	padding-bottom: 50px;
+	background: #FCEEEE;
+	border-radius: 30px;
+	margin: 30px auto;
+
+}
+.about-owner h2{
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+.about-owner h2 span{
+	color: var(--orange);
+}
+.about-owner img{
+	
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	object-fit: cover;
+
+}
+.owner-text{
+	margin: 20px;
+}
+.owner-text p{
+	font-size: 17px;
+	line-height: 2;
+	font-weight: 500;
+}
+
+/*
+================================================
+			ABOUT OWNER SEECTION END
+================================================
+*/
+/*
+================================================
+			VIDEO SECTION START
+================================================
+*/
+/*.video #video {
+	border-radius: 20px !important;
+	
+}*/
+.video video{
+	border-radius: 20px !important;
+}
+.video-slider .slick-arrow{
+	color: var(--red) !important;
+	width: 40px !important;
+	height: 40px !important;
+	border-radius: 50%;
+	border: 1px solid var(--red);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.slick-next:before,
+.slick-prev:before{
+	color: red;
+}
+.video-slider .slick-dots {
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 30px;
+	margin-top: 20px !important;
+
+
+}
+.video-slider .slick-dots  button{
+	display: flex;
+	align-items: center;
+	background: lightgrey;
+	margin: 20px;
+	width: 10px;
+	height: 10px;
+	border-radius: 20px;
+	transition: 0.5s;
+	
+}
+.slick-dots li {
+	margin: 10px 0px;
+	transition: 0.5s;
+
+}
+.slick-dots li button:before{
+	margin: 20px;
+	display: flex;
+	align-items: center;
+	width: 10px !important;
+	height: 10px !important;
+	position: absolute;
+	border-radius: 20px;
+	background: lightgrey;
+	color: transparent;
+	transition: 0.5s;
+	
+
+}
+.slick-dots li.slick-active{
+	margin-left: 5px;
+	margin-right: 10px;
+}
+.slick-dots li.slick-active button:before{
+	margin: 20px 10px !important;
+	display: flex;
+	align-items: center;
+	width: 30px !important;
+	height: 10px !important;
+	position: absolute;
+	border-radius: 20px;
+	background: red;
+	color: red;
+	opacity: 1;
+	transition: 0.5s;
+	
+}
+/*
+================================================
+			VIDEO SECTION END
+================================================
+*/
+
+/*
+================================================
+		MAKE YOUR PROJECT SECTION START
+================================================
+*/
+.make-project{
+	background: #FFF0E8;
+	margin: 30px auto;
+	padding: 10px;
+}
+
+.project-text h2{
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 10px !important;
+}
+.project-text p{
+	font-size: 14px;
+	font-weight: 500;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.project-list ul li{
+	color: ;
+	font-size: 17px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+/*
+================================================
+		MAKE YOUR PROJECT SECTION END
+================================================
+*/
+
+/*
+================================================
+		TEDTIMONIAL SECTION START
+================================================
+*/
+.testimonial-section{
+	margin-top: 20px auto;
+	margin-bottom: 100px !important;
+
+}
+.test-heading h2{
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 1.5;
+}
+.test-heading span{
+	color: var(--orange);
+}
+.test-heading p{
+	font-size: 14px;
+	line-height: 1.5;
+	margin-top: 20px;
+}
+
+.test-wrap{
+	border: 2px solid grey;
+	border-radius: 10px;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+	transition: 0.5s;
+}
+.test-wrap .img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.test-wrap .about-test p{
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+.test-wrap .rating span{
+	font-weight: 500;
+}
+.test-wrap .rating span i{
+	color: gold;
+	position: relative;
+	top: -5px;
+	left: 5px;
+}
+.test-card-content p{
+	font-size: 13px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.test-wrap:hover{
+	border: 2px solid var(--red);
+	box-shadow: 0 20px 30px -25px grey;
+}
+
+
+
+
+.test-slider .slick-arrow{
+	color: var(--red) !important;
+	width: 40px !important;
+	height: 40px !important;
+	border-radius: 50%;
+	border: 1px solid var(--red);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 120%;
+
+}
+.slick-next:before,
+.slick-prev:before{
+	color: red;
+}
+.test-slider .slick-dots {
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 30px;
+	margin-top: 20px !important;
+
+
+}
+.test-slider .slick-dots  button{
+	display: flex;
+	align-items: center;
+	background: lightgrey;
+	margin: 20px;
+	width: 10px;
+	height: 10px;
+	border-radius: 20px;
+	transition: 0.5s;
+
+	
+}
+.slick-dots li {
+	margin: 10px 0px;
+	transition: 0.5s;
+
+}
+.slick-dots li button:before{
+	margin: 20px;
+	display: flex;
+	align-items: center;
+	width: 10px !important;
+	height: 10px !important;
+	position: absolute;
+	border-radius: 20px;
+	background: lightgrey;
+	color: transparent;
+	transition: 0.5s;
+	
+
+}
+.test-slider .slick-dots li.slick-active{
+	margin-left: 5px;
+	margin-right: 10px;
+}
+.slick-dots li.slick-active button:before{
+	margin: 20px 10px !important;
+	display: flex;
+	align-items: center;
+	width: 30px !important;
+	height: 10px !important;
+	position: absolute;
+	border-radius: 20px;
+	background: red;
+	color: red;
+	opacity: 1;
+	transition: 0.5s;
+	
+}
+
+.test-slider  .slick-prev{
+	width: 30px;
+	height: 30px;
+	color: #fff;
+	position: absolute;
+	left: 83%;
+	top: 110%;
+	z-index: 100;
+
+
+}
+.test-slider  .slick-next{
+	width: 30px;
+	height: 30px;
+	color: #fff;
+	position: absolute;
+	left: 90%;
+	top: 110%;
+	z-index: 100;
+}
+
+/*
+================================================
+		TEDTIMONIAL SECTION END
+================================================
+*/
+
+/*
+================================================
+		SUBSCRIBER SECTION START
+================================================
+*/
+.sub-section{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding: 30px 80px;
+	box-shadow: 0 20px 40px -40px grey,
+	0 -10px 30px -30px grey;
+}
+.sub-text{
+	margin-left: 40px;
+}
+.sub-text h3{
+font-weight: bold;
+
+}
+.sub-text p{
+	font-size: 14px;
+	margin-top: 20px;
+}
+.news-btn{
+	margin-right: 100px;
+}
+
+.news-btn a{
+font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+	padding: 10px 50px;
+	border-radius: 5px;
+	background:var(--red);
+	border: 1px solid var(--red);
+	box-shadow: 0px 15px 30px -10px var(--red);
+	transition: all .4s linear;
+}
+.news-btn a:hover{
+	color: #333;
+	background: transparent;
+}
+/*
+================================================
+		SUBSCRIBER SECTION END
+================================================
+*/
+/*
+================================================
+		FOOTER SECTION START
+================================================
+*/
+.footer-section .footer-about h2{
+	color: var(--ligthblue)
+}
+.footer-section .footer-about h2 span{
+	color: var(--orange);
+}
+.footer-section  .footer-about p{
+	font-size: 14px;
+	padding-right: 20px;
+	margin-top: 20px;
+	font-weight: 400;	
+}
+.footer-section  .footer-about .social-link{
+	display: flex;
+}
+.footer-section  .footer-about .social-link i{
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	
+	font-size: 13px;
+	color: var(--red);
+	box-shadow: 0 3px 8px -4px grey;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+}
+.footer-section  .footer-about .social-link i:hover{
+	color: #fff;
+	background: var(--red);
+}
+
+.footer-section  .footer-about .copyright p{
+	margin: 20px;
+	margin-top: 30px;
+	color: lightgrey;
+	font-size: 14px;
+
+}
+.footer-section  .footer-about .copyright p span{
+	font-weight: bold;
+	color: lightgrey;
+}
+.footer-section .list h6{
+	font-size: 17px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.footer-section .list ul li{
+	margin: 10px 0;
+
+} 
+.footer-section .list ul li a{
+	color: #333;
+	font-size: 13px;
+	transition: 0.3s;
+}
+.footer-section .list ul li a:hover{
+	color: var(--red);
+}
+/*
+================================================
+		FOOTER SECTION END
+================================================
+*/
+
